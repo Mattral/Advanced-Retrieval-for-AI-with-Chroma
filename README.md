@@ -2,7 +2,9 @@
 
 A common workflow in RAG is to take your query and embed that, 
 then find the most similar documents, meaning ones with similar embeddings, 
-and that's the context. But the problem with that 
+and that's the context. 
+
+But the problem with that 
 is that it can tend to find documents that talk about similar 
 topics as a query, but not actually contain the answer. But 
 you can take the initial user query and rewrite. 
